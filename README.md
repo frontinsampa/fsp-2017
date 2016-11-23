@@ -158,6 +158,5 @@ E depois de um dia inteiro de palestras, estamos preparando uma grande festa de 
 
 
 **Está interessado em alguma cota de patrocínio ou quer fazer alguma proposta diferente?**
-
 Entre em contato. [frontinsampa@gmail.com](frontinsampa@gmail.com).
 
