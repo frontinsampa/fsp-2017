@@ -10,7 +10,7 @@ Nas cinco primeiras edições foram mais de 1000 desenvolvedores e alguns palest
 
 Já passaram pelo palco do Frontinsampa, palestrantes internacionais, como a grega Lea Verou com a palestra "O humilde border-radius" em 2013 e nossos hermanos em 2015, Lourdes Montano falando de “Sass Maps”, Sergio @blunk com o seu “Cinto de utilidades para desenvolvedores” e Eva Ferreira falando de “Newton e CSS”, além de grandes nomes do front-end do Brasil, como Alda Rocha (Founder da Codamos, com a sua inscrível palestra O Front, As Mina e Pah (engajamento de mulheres na tecnologia), Zeno Rocha (Liferay Estados Unidos), Caio Gondim (Booking.com Amsterdã), Sérgio Lopes (Caelum - Brasil), Reinaldo Ferraz (W3C Brasil), Horácio Soares (Hotel Urbano - Brasil), Maujor (Dinossauro das CSS - Brasil), Bernard de Luna (3 days - Brasil), Neto Marin (Google - Brasil), Leda Spelta (Acesso Digital - Brasil), Raphael Fabeni (Red Ventures - Estados Unidos/Brasil), Alda Rocha (UX consultanc, WebDev and Founder Codamos), Talita Pagani (Especialista em Acessibilidade Web), Edu Agni (Curador da área de Criatividade da Campus Party Brasil e UX especialist da Mergo - Cursos de UX) … entre outros! 
 
-Outro detalhe marcante do evento é que sempre registramos o evento com fotografias profissionais e gravamos todas as palestras e deixamos disponíveis no nosso canal do youtube, além é claro, do super "happyhour networking" (2013, 2014 e 2015) para integrar a galera, tudo isso com direito a DJ, snacks e bons drinks e sim, vai ter festa novamente em 2017, estamos de volta!
+Outro detalhe marcante do evento é que sempre registramos o evento com fotografias profissionais e gravamos todas as palestras e deixamos disponíveis no nosso canal do youtube, além é claro, do super "happyhour networking" (2013, 2014 e 2015) para integrar a galera, tudo isso com direito a DJ, snacks e bons drinks e sim…. vai ter festa novamente em 2017, estamos de volta! 
 
 # FRONTINSAMPA 2017
 **Estamos de volta**
@@ -18,17 +18,18 @@ Outro detalhe marcante do evento é que sempre registramos o evento com fotograf
 Conforme o lindo feedback que tivemos da nossa ultima edição,visando melhorar o evento, resolvemos planejar a edição de 2017 mesclando com um pouco de cada uma das 5 edições passadas.
 
 Conforto (de um auditório), Facilidade de Acesso (que fique próximo ao metrô e tenha bastante opção de hospedagem e alimentação) e com uma festa no final (happy hour com dj, open bar e muito networking)...  2017 será sensacional. 
-O evento será realizado nas imediações da av. Paulista e com publico estimado em 400 participante, com ambiente confortável e a nossa já tradicional festa de encerramento está de volta! 
+
+O evento será realizado nas imediações da av. Paulista e com publico estimado em 400 participantes, com ambiente confortável e a nossa já tradicional festa de encerramento está de volta! 
 
 Aprender, compartilhar e se divertir, essa é a nossa missão! 
 
 
-# DIVERSIDADE
+# COMUNIDADES E DIVERSIDADE
 **We Can Do It**
 
-Nós respeitamos todas as pessoas e incentivamos a diversidade no evente e apenas para registro, fizemos um levantamento dos participantes e tivemos um crescimento considerável na participação de mulheres, chegando a 16.9% em 2016. 
+Nós respeitamos todas as pessoas, comunidades e incentivamos a diversidade no evento… apenas para registro, fizemos um levantamento dos participantes e tivemos um crescimento considerável na participação de mulheres, chegando a 16.9% em 2016. 
 
-(Desenhar gráfico com dados dos anos anteriores)
+(Desenhar gráfico com dados dos anos anteriores, participantes mulheres.)
 
 - 2012: 8.6%
 - 2013: 15%
@@ -36,20 +37,22 @@ Nós respeitamos todas as pessoas e incentivamos a diversidade no evente e apena
 - 2015: 13.6%
 - 2016: 16.9%
 
-Com base nessa estatística, na 6.a edição do Frontinsampa, TODAS as mulheres tem 50% de desconto nas inscrições.  
+Com base nessa estatística, na 6.a edição do Frontinsampa, TODAS as mulheres tem 50% de desconto nas inscrições.  Sabemos que é um pequeno passo, mas vamos um passo de cada vez!
 
-Sabemos que é um pequeno passo, mas vamos um passo de cada vez!
+Outra coisa muito importante para nós é a participação do “frontinsampa” nas comunidades de desenvolvimento, porque o evento acontece uma vez por ano, mas no restante dos dias, nós da organização queremos de alguma forma ajudar a comunidade, seja palestrando em alguma evento, seja participando em meteups, seja escrevendo posts, co-organizando outros eventos como o Code In The Dark Brasil e Conferencia CSS Brasil ou até mesmo ajudando outros eventos, divulgando nas nossas redes sociais ou até mesmo com dinheiro. Em 2016, “sobrou” um pouco de nossa verba e ajudamos com uma cota de patrocínio no “front in vale”. Afinal, o lucro do frontinsampa é da comunidade e isso tem que ser espalhado de alguma forma.
 
-Lembrando: Nós não fazemos distinção de cor, religião, opção sexual, deficiência física ou qualquer outra de “diversidade”, TODAS as pessoas são bem vindas ao frontinsampa... Nós TODOS podemos! 
+Lembrando: Nós não fazemos distinção de cor, religião, opção sexual, comunidade, linguagem, deficiência física ou qualquer outra “diversidade”, TODAS as pessoas e comunidades são bem vindas ao frontinsampa.  
+
 Vem com a gente que é sucesso.
 
 
 # SAVE THE DATE
 **Sábado, 1 de Julho de 2017**
 
-O evento será dia 1 de julho de 2017, na região da avenida paulista e as inscrições estão abertas, que darão darão direito a participar/assistir de todas as palestras do dia, coffeebreak, muito networking e depois de um dia inteiro de palestras, estamos preparando uma grande festa de confraternização. 
+O evento será dia 1 de julho de 2017, na região da avenida paulista e as inscrições estão abertas.
+Queremos que o valor de cada inscrição seja acessível, para apenas garantir que todas as despesas do evento sejam pagas. Para tal, precisamos da ajuda de parceiros e patrocinadores. 
 
-Queremos que o valor de cada inscrição seja acessível, assim conseguimos garantir que todas as despesas do evento sejam pagas, mas para tal, precisamos da ajuda de parceiros e patrocinadores. 
+E depois de um dia inteiro de palestras, estamos preparando uma grande festa de confraternização. 
 
 
 # Valores das cotas
@@ -95,6 +98,7 @@ Queremos que o valor de cada inscrição seja acessível, assim conseguimos gara
     <dd>Mailinglist dos participantes/inscritos.</dd>
 </dl>
 
+
 # Marketing
 **Toda nossa comunicação é feita através das nossas redes sociais e site, com uma equipe de redação e também de marketing digital.**
 
@@ -115,7 +119,7 @@ Queremos que o valor de cada inscrição seja acessível, assim conseguimos gara
     <dd>
         <a href="https://twitter.com/elvisdetona">@elvisdetona</a>
     </dd>
-    <dd>+55 11 994919272</dd>
+    <dd>+55 11 99491-9272</dd>
 </dl>
 
 <dl>
@@ -126,7 +130,7 @@ Queremos que o valor de cada inscrição seja acessível, assim conseguimos gara
     <dd>
         <a href="https://twitter.com/deividmarques">@deividmarques</a>
     </dd>
-    <dd>+ 55 11 964542580</dd>
+    <dd>+ 55 11 96454-2580</dd>
 </dl>
 
 <dl>
@@ -137,6 +141,7 @@ Queremos que o valor de cada inscrição seja acessível, assim conseguimos gara
     <dd>
         <a href="https://twitter.com/seescrevekeit">@seescrevekeit</a>
     </dd>
+    <dd>+ 55 11 99853-9666</dd>
 </dl>
 
 <dl>
@@ -152,6 +157,6 @@ Queremos que o valor de cada inscrição seja acessível, assim conseguimos gara
 
 
 
-## Está interessado em alguma cota de patrocínio ou quer fazer alguma proposta diferente?
-Entre em contato, podemos negociar. [frontinsampa@gmail.com](frontinsampa@gmail.com).
+**Está interessado em alguma cota de patrocínio ou quer fazer alguma proposta diferente?**
+Entre em contato. [frontinsampa@gmail.com](frontinsampa@gmail.com).
 
