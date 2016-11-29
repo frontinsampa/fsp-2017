@@ -1,0 +1,331 @@
+$font-color-neutral: #757575;
+$font-color-info: #58A9F3;
+
+$block-size-1: 95px;
+$block-size-2: 155px;
+$block-size-3: 215px;
+$block-size-4: 365px;
+
+$block-color-yellow: #FBC54C;
+$block-color-blue: #58A9F3;
+$block-color-red: #FF685C;
+$block-color-green: #7BE473;
+$block-color-purple: #DA83F7;
+$block-color-white: #FFFFFF;
+
+@mixin block-colors($width, $background) {
+  width: $width;
+  background: $background;
+}
+
+@mixin block-shadow($position) {
+  box-shadow: $position 0 rgba(black, .1);
+}
+
+@mixin block-animation($x, $y, $hash) {
+  @keyframes block-animation-#{$hash} {
+    from {
+      opacity: 0;
+      transform: translate(150%, $y);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate($x, $y);
+    }
+  }
+
+  animation: block-animation-#{$hash} 1s ease;
+  animation-fill-mode: forwards;
+}
+
+:root {
+  color: white;
+  background: black;
+  font: 1rem 'Roboto', sans-serif;
+  text-align: center;
+
+  @media screen and (min-width: 1000px) {
+    text-align: initial;
+  }
+}
+
+span {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:link {
+    transition: translate .2s ease;
+
+    &:hover,
+    &:focus {
+      opacity: .8;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+/**
+ * GRIDS.
+ */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1680px;
+  overflow-x: hidden;
+
+
+  & > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    position: relative;
+
+    & > div {
+      flex: 1 1 100%;
+      box-sizing: border-box;
+      padding: 10%;
+
+      @media screen and (min-width: 1000px) {
+        flex: 1 1 50%;
+      }
+    }
+
+    &:first-of-type > div {
+      &:first-of-type {
+        overflow: hidden;
+
+        @media screen and (min-width: 1000px) {
+          flex: 1 1 40%;
+        }
+      }
+
+      &:last-of-type {
+        transform: rotateZ(320deg);
+        position: relative;
+        padding: 100px 0 0 100px;
+
+        @media screen and (min-width: 1000px) {
+          flex: 1 1 60%;
+        }
+      }
+    }
+
+    &:last-of-type > div {
+      padding-bottom: 5rem;
+    }
+  }
+}
+/**
+ * HEADER.
+ */
+header {
+  & > * {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    color: $font-color-neutral;
+  }
+
+  svg {
+    @media screen and (max-width: 1000px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  a {
+    color: black;
+
+    &:link {
+      display: inline-flex;
+      box-sizing: border-box;
+      align-items: center;
+      padding: 1.5rem;
+      background: white;
+      margin-bottom: 0;
+      text-transform: uppercase;
+
+      img, svg {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+/**
+ * BLOCKS.
+ */
+i {
+  position: relative;
+
+  &,
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3rem;
+    border-radius: 4rem;
+  }
+
+  &:nth-of-type(odd) {
+    z-index: 2;
+  }
+
+  &:nth-of-type(even) {
+    opacity: .8;
+    z-index: 1;
+  }
+
+  &:nth-of-type(1) {
+    @include block-colors($block-size-1, $block-color-yellow);
+    @include block-shadow(10px 14px);
+    @include block-animation(0, -10px, 1);
+
+    &:before {
+      @include block-colors($block-size-2, $block-color-blue);
+      transform: translate(530px, 0);
+    }
+
+    &:after {
+      content: none;
+    }
+  }
+
+  &:nth-of-type(2) {
+    @include block-colors($block-size-4, $block-color-red);
+    @include block-animation(5px, -20px, 2);
+
+    &:before,
+    &:after {
+      content: none;
+    }
+  }
+
+  &:nth-of-type(3) {
+    @include block-colors($block-size-1, $block-color-purple);
+    @include block-shadow(-40px 44px);
+    @include block-animation(175px, 20px, 3);
+
+    &:before {
+      @include block-colors($block-size-2, $block-color-white);
+      @include block-shadow(0 15px);
+      opacity: 0;
+      transform: translate(250px, 0);
+    }
+
+    &:after {
+      content: none;
+    }
+  }
+
+  &:nth-of-type(4) {
+    @include block-colors($block-size-2, $block-color-green);
+    @include block-animation(20px, 5px, 4);
+
+    &:before {
+      @include block-colors($block-size-4, $block-color-red);
+      transform: translate(310px, 0);
+    }
+
+    &:after {
+      @include block-colors($block-size-4, $block-color-yellow);
+      transform: translate(720px, -48px);
+    }
+  }
+
+  &:nth-of-type(5) {
+    @include block-colors($block-size-3, $block-color-purple);
+    @include block-shadow(-25px 15px);
+    @include block-animation(420px, 50px, 5);
+
+    &:before,
+    &:after {
+      content: none;
+    }
+  }
+
+  &:nth-of-type(6) {
+    @include block-colors($block-size-4, $block-color-blue);
+    @include block-shadow(-35px 30px);
+    @include block-animation(80px, 35px, 6);
+
+    &:before {
+      @include block-colors($block-size-4, $block-color-white);
+      transform: translate(860px, 0px);
+    }
+
+    &:after {
+      content: none;
+    }
+  }
+
+  &:nth-of-type(7) {
+    @include block-colors($block-size-1, $block-color-yellow);
+    @include block-animation(-5px, 35px, 7);
+    z-index: -1;
+
+    &:before,
+    &:after {
+      content: none;
+    }
+  }
+
+  &:nth-of-type(8) {
+    @include block-colors($block-size-1, $block-color-purple);
+    @include block-animation(15px, 75px, 8);
+    transform: translate(15px, 75px);
+
+    &:before {
+      @include block-colors($block-size-4, $block-color-green);
+      transform: translate(170px, 0px);
+    }
+
+    &:after {
+      @include block-colors($block-size-2, $block-color-white);
+      transform: translate(610px, -48px);
+    }
+  }
+
+  @for $i from 1 through 8 {
+    &:nth-of-type(#{$i}) {
+      opacity: 0;
+      animation-delay: #{'.' + $i}s;
+    }
+  }
+}
+/**
+ * FOOTER.
+ */
+main > div:last-of-type > div {
+  & > *:not(:last-child) {
+    margin-bottom: 1.2rem;
+  }
+
+  p {
+    color: $font-color-neutral;
+  }
+
+  a {
+    color: $font-color-info;
+  }
+
+  li {
+    display: inline-block;
+
+    &:not(:last-of-type) {
+      margin-right: .8rem;
+    }
+  }
+}
