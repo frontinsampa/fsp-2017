@@ -80,6 +80,9 @@ main {
 /**
  * HEADER.
  */
+main > div:first-of-type > div:first-child {
+  padding-right: 0; }
+
 header > * {
   margin-bottom: 3rem; }
 
@@ -129,8 +132,8 @@ i {
     width: 95px;
     background: #FBC54C;
     box-shadow: 10px 14px 0 rgba(0, 0, 0, 0.1);
-    -webkit-animation: block-animation-1 1s ease;
-            animation: block-animation-1 1s ease;
+    -webkit-animation: block-animation-1 1s cubic-bezier(0.4, 0, 0, 2.63);
+            animation: block-animation-1 1s cubic-bezier(0.4, 0, 0, 2.63);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
 
@@ -163,8 +166,8 @@ i {
   i:nth-of-type(2) {
     width: 365px;
     background: #FF685C;
-    -webkit-animation: block-animation-2 1s ease;
-            animation: block-animation-2 1s ease;
+    -webkit-animation: block-animation-2 1s cubic-bezier(0.4, 0, 0, 2.63);
+            animation: block-animation-2 1s cubic-bezier(0.4, 0, 0, 2.63);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
 
@@ -193,8 +196,8 @@ i {
     width: 95px;
     background: #DA83F7;
     box-shadow: -40px 44px 0 rgba(0, 0, 0, 0.1);
-    -webkit-animation: block-animation-3 1s ease;
-            animation: block-animation-3 1s ease;
+    -webkit-animation: block-animation-3 1s cubic-bezier(0.4, 0, 0, 2.63);
+            animation: block-animation-3 1s cubic-bezier(0.4, 0, 0, 2.63);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
 
@@ -229,8 +232,8 @@ i {
   i:nth-of-type(4) {
     width: 155px;
     background: #7BE473;
-    -webkit-animation: block-animation-4 1s ease;
-            animation: block-animation-4 1s ease;
+    -webkit-animation: block-animation-4 1s cubic-bezier(0.4, 0, 0, 2.63);
+            animation: block-animation-4 1s cubic-bezier(0.4, 0, 0, 2.63);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
 
@@ -267,8 +270,8 @@ i {
     width: 215px;
     background: #DA83F7;
     box-shadow: -25px 15px 0 rgba(0, 0, 0, 0.1);
-    -webkit-animation: block-animation-5 1s ease;
-            animation: block-animation-5 1s ease;
+    -webkit-animation: block-animation-5 1s cubic-bezier(0.4, 0, 0, 2.63);
+            animation: block-animation-5 1s cubic-bezier(0.4, 0, 0, 2.63);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
 
@@ -297,8 +300,8 @@ i {
     width: 365px;
     background: #58A9F3;
     box-shadow: -35px 30px 0 rgba(0, 0, 0, 0.1);
-    -webkit-animation: block-animation-6 1s ease;
-            animation: block-animation-6 1s ease;
+    -webkit-animation: block-animation-6 1s cubic-bezier(0.4, 0, 0, 2.63);
+            animation: block-animation-6 1s cubic-bezier(0.4, 0, 0, 2.63);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards; }
 
@@ -331,8 +334,8 @@ i {
   i:nth-of-type(7) {
     width: 95px;
     background: #FBC54C;
-    -webkit-animation: block-animation-7 1s ease;
-            animation: block-animation-7 1s ease;
+    -webkit-animation: block-animation-7 1s cubic-bezier(0.4, 0, 0, 2.63);
+            animation: block-animation-7 1s cubic-bezier(0.4, 0, 0, 2.63);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
     z-index: -1; }
@@ -361,8 +364,8 @@ i {
   i:nth-of-type(8) {
     width: 95px;
     background: #DA83F7;
-    -webkit-animation: block-animation-8 1s ease;
-            animation: block-animation-8 1s ease;
+    -webkit-animation: block-animation-8 1s cubic-bezier(0.4, 0, 0, 2.63);
+            animation: block-animation-8 1s cubic-bezier(0.4, 0, 0, 2.63);
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
     -webkit-transform: translate(15px, 75px);
