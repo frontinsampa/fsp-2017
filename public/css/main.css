@@ -1,10 +1,19 @@
-:root {
+body {
   color: white;
   background: black;
   font: 1rem 'Roboto', sans-serif;
-  text-align: center; }
-  @media screen and (min-width: 1000px) {
-    :root {
+  text-align: center;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media screen and (min-width: 1024px) {
+    body {
       text-align: initial; } }
 
 span {
@@ -34,8 +43,7 @@ main {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  min-width: 1680px;
-  overflow-x: hidden; }
+  max-width: 1680px; }
   main > div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -51,46 +59,49 @@ main {
           -ms-flex: 1 1 100%;
               flex: 1 1 100%;
       box-sizing: border-box;
-      padding: 10%; }
-      @media screen and (min-width: 1000px) {
+      padding: 5vw 5vw; }
+      @media screen and (min-width: 1024px) {
         main > div > div {
           -webkit-box-flex: 1;
               -ms-flex: 1 1 50%;
                   flex: 1 1 50%; } }
-    main > div:first-of-type > div:first-of-type {
-      overflow: hidden; }
-      @media screen and (min-width: 1000px) {
-        main > div:first-of-type > div:first-of-type {
-          -webkit-box-flex: 1;
-              -ms-flex: 1 1 40%;
-                  flex: 1 1 40%; } }
-    main > div:first-of-type > div:last-of-type {
-      -webkit-transform: rotateZ(320deg);
-              transform: rotateZ(320deg);
-      position: relative;
-      padding: 100px 0 0 100px; }
-      @media screen and (min-width: 1000px) {
-        main > div:first-of-type > div:last-of-type {
-          -webkit-box-flex: 1;
-              -ms-flex: 1 1 60%;
-                  flex: 1 1 60%; } }
-    main > div:last-of-type > div {
-      padding-bottom: 5rem; }
+    main > div:first-of-type > div {
+      position: relative; }
+      main > div:first-of-type > div:first-of-type {
+        overflow: hidden;
+        position: relative;
+        z-index: 2; }
+        @media screen and (min-width: 1024px) {
+          main > div:first-of-type > div:first-of-type {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 50%;
+                    flex: 0 0 50%; } }
+      main > div:first-of-type > div:last-of-type {
+        -webkit-transform: rotateZ(320deg) translateY(-25%);
+                transform: rotateZ(320deg) translateY(-25%);
+        position: absolute;
+        top: 0;
+        left: 50%; }
+        @media screen and (min-width: 1024px) {
+          main > div:first-of-type > div:last-of-type {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 50%;
+                    flex: 0 0 50%; } }
 
 /**
  * HEADER.
  */
-main > div:first-of-type > div:first-child {
-  padding-right: 0; }
-
 header > * {
-  margin-bottom: 3rem; }
+  margin-bottom: 5vh; }
 
 header h2 {
   font-size: 1.2rem;
-  color: #757575; }
+  color: white; }
+  @media screen and (min-width: 1024px) {
+    header h2 {
+      color: #757575; } }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   header svg {
     width: 100%;
     height: auto; } }
@@ -436,16 +447,18 @@ i {
 /**
  * FOOTER.
  */
-main > div:last-of-type > div > *:not(:last-child) {
-  margin-bottom: 1.2rem; }
-
-main > div:last-of-type > div p {
-  color: #757575; }
-
-main > div:last-of-type > div a {
-  color: #58A9F3; }
-
-main > div:last-of-type > div li {
-  display: inline-block; }
-  main > div:last-of-type > div li:not(:last-of-type) {
-    margin-right: .8rem; }
+main > div:last-of-type > div {
+  padding-top: 0; }
+  main > div:last-of-type > div > *:not(:last-child) {
+    margin-bottom: 1.2rem; }
+  main > div:last-of-type > div p {
+    color: white; }
+    @media screen and (min-width: 1024px) {
+      main > div:last-of-type > div p {
+        color: #757575; } }
+  main > div:last-of-type > div a {
+    color: #58A9F3; }
+  main > div:last-of-type > div li {
+    display: inline-block; }
+    main > div:last-of-type > div li:not(:last-of-type) {
+      margin-right: .8rem; }
