@@ -79,7 +79,7 @@ main {
       main > div:first-of-type > div:last-of-type {
         -webkit-transform: rotateZ(320deg) translateY(-25%);
                 transform: rotateZ(320deg) translateY(-25%);
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 50%; }
         @media screen and (min-width: 1024px) {
