@@ -118,7 +118,7 @@ main {
 
       &:last-of-type {
         transform: rotateZ(320deg) translateY(-25%);
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 50%;
 
